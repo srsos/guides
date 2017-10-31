@@ -1,16 +1,17 @@
 ---
-title: Vim
+title: Searching
 ---
-# Vim
+# Searching
 
-Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems, which also includes Apple's macOS.
+### Basic Searching in Vim
+While in normal mode, you can hit `/` then type in your search pattern and then press `Enter` to perform the search.
+- `/pattern` to search forward for the pattern
+- `?pattern` to search backward for the pattern
+- `ESC` to exit out of the search
+- `n` to repeat forward search
+- `N` to repeat backward search
 
-Vim is rock stable and boasts many features including:
-- persistent, multi-level undo tree
-- extensive plugin system
-- support for hundreds of programming languages and file formats
-- powerful search and replace
-- integrates with many tools
-- built-in macro support for automation text manipulation
+### Search History
+Vim has a search history. You can type `/` or `?`, or also use the arrow up or arrow down keys to view previous searches. 
 
-For more information head to <a href='https://vim.sourceforge.io' target='_blank' rel='nofollow'>Vim's homepage</a>
+For more information head to <a href='http://vim.wikia.com/wiki/Searching' target='_blank' rel='nofollow'>Searching in Vim</a>
